@@ -2,7 +2,7 @@
 
 Já pensou em compartilhar suas fotos com seus amigos? Já imaginou seguir os seus amigos e ver o que eles estão postando? Tudo isso em uma aplicação web? Como o FotoShare você pode fazer isso e muito mais! Faça agora mesmo o curso [Ruby on Rails - do Zero ao Deploy](http://www.youtube.com.br) e aprenda a construir uma aplicação web.
 
-[Imgur](http://i.imgur.com/I9NDgup.png)
+![Imgur](http://i.imgur.com/I9NDgup.png)
 
 ## Requisitos Necessários
 
