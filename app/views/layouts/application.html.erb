@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>NovoFotoshare</title>
+    <title>Fotoshare</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,7 +9,15 @@
   </head>
 
   <body>
-    <h1>Eu sou do Application.html</h1>
-    <%= yield %>
+
+    <%= render 'layouts/header' %>
+
+    <div class="container">
+      <%= yield %>
+
+      <%= render 'layouts/footer' %>
+    </div>
+
+
   </body>
 </html>
