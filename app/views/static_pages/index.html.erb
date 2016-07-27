@@ -1,2 +1,35 @@
-<h1>Home Page</h1>
-<p>Eu sou a Home Page</p>
+<div class="jumbotron">
+  <h1>FotoShare</h1>
+  <p>
+    Compartilhe seus melhores momentos.
+  </p>
+  <p>
+    <a href="#" class="btn btn-primary btn-lg">Crie sua conta!</a>
+  </p>
+</div>
+
+<div class="row">
+
+  <% for i in 0...6 do %>
+    <div class="col-xs-12 col-md-4 col-lg-4">
+      <div class="thumbnail post-card">
+        <%= image_tag 'natureza04.png', class: 'img img-responsive post' %>
+      </div>
+
+      <div class="caption">
+        <%= image_tag 'natureza04.png', class: 'img img-rounded', style: 'width: 30px; height: 30px;' %>
+        <div class="post-legenda">
+          <span>Postado por Fulano de Tal</span> <br>
+          <span>2 horas atras</span>
+        </div>
+        <div class="legenda">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  <% end %>
+
+</div>
